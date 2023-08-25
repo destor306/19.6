@@ -4,13 +4,15 @@
   "description": "",
   "main": "count-zeroes.js",
   "scripts": {
-    "test": "jest"
+    "test": "jasmine-browser-runner runSpecs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^5.1.0",
+    "jasmine-browser-runner": "^2.1.0",
+    "jasmine-core": "^5.1.0",
     "jest": "^23.6.0"
   }
 }
